@@ -1,9 +1,14 @@
-import Rodape  from './Rodape.module.css';
+import styles from './Rodape.module.css';
+import LogoImagem from '../LogoImagem';
 
-function Rodape (){
-    return(
-
-    )
+function Rodape({logoRodape, alt}) {
+    return (
+        <footer className={styles.rodape}>
+            <LogoImagem logo={logoRodape} alt={alt}/>
+        </footer>
+    );
 }
 
-export default Rodape
+
+
+export default Rodape;

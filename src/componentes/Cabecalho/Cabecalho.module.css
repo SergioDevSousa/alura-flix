@@ -12,24 +12,25 @@
     gap: 2em;
     font-size: 20px;
 }
+
 .container a{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 11rem;
     height: 3rem;
-    border: blue solid;
-    border-radius: 10px;
-    box-shadow: inset 0px 0px 15px rgba(27, 17, 175, 0.5);
-}
-.container, a, .home{
     text-decoration: none;
-    color: white
 }
 
-/* .btn, a, .novoVideo{
-    display: flex;
-    align-content: center;
+.home{
+    color: blue;
+    border: blue solid;
+    box-shadow: inset 0px 0px 15px rgba(27, 17, 175, 0.5);
+    border-radius: 10px;
+}
+
+.novoVideo{
     color: white;
-    border: #ffffff
-} */
+    border: #ffffff solid;
+    border-radius: 10px;
+}
