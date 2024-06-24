@@ -1,9 +1,10 @@
 .cabecalho{
-    background-color: black;
+    background-color: #262626;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 30px;
+    top: 0;
 }
 
 .container {
@@ -25,7 +26,7 @@
 .home{
     color: blue;
     border: blue solid;
-    box-shadow: inset 0px 0px 15px rgba(27, 17, 175, 0.5);
+    box-shadow: inset 0px 0px 15px rgba(27, 17, 175, 0.8);
     border-radius: 10px;
 }
 
