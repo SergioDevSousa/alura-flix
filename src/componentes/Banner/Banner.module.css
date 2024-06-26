@@ -1,5 +1,6 @@
 .banner img{
     width: 100%;
     height: 744px;
-    opacity: #262626 0.5;
+    background-position: center;
+    background-color: blue
 }

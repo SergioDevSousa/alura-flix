@@ -1,15 +1,18 @@
 .cabecalho{
     background-color: #262626;
+    width: 100%;
+    height: 3.125rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
-    top: 0;
+    padding: 30px 0px 30px 0px;
+    position: fixed;
+    position: absolute;
+    box-shadow: 5px 5px 20px rgba(27, 17, 175, 1.0);
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
     gap: 2em;
     font-size: 20px;
 }
@@ -24,8 +27,8 @@
 }
 
 .home{
-    color: blue;
-    border: blue solid;
+    color: #2271D1;
+    border: #2271d1 solid;
     box-shadow: inset 0px 0px 15px rgba(27, 17, 175, 0.8);
     border-radius: 10px;
 }

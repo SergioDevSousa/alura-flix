@@ -1,0 +1,32 @@
+.textoMain{
+    padding: 20px;
+    width: 55%;
+    height: auto;
+}
+.textoMain h1{
+    background-color: #6BD1FF;
+    color: #ffffff;
+    width: 30vh;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textoMain h2{
+    width: 100vh;
+    height: auto;
+    font-size: 2rem;
+    color: #ffffff;
+
+}
+.textoMain p{
+    width: 100vh;
+    height: auto;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #ffffff;
+    
+}
