@@ -8,7 +8,7 @@ function CardMain() {
     return (
         <section className={styles.containerMain}>
             <TextoMain />
-            <ImagemMain />
+            <ImagemMain className={styles.imagemMain} />
         </section>
     );
 }

@@ -1,10 +1,10 @@
 import styles from './Rodape.module.css';
 import LogoImagem from '../LogoImagem';
 
-function Rodape({logoRodape, alt}) {
+function Rodape() {
     return (
         <footer className={styles.rodape}>
-            <LogoImagem logo={logoRodape} alt={alt}/>
+            <LogoImagem logo={LogoImagem} />
         </footer>
     );
 }

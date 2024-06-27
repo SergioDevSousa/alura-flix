@@ -1,7 +1,35 @@
+/* .containerMain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+}
+
+img{
+    width: 646px;
+    height: 333px;
+    border: 2px solid #ccc; 
+    border-radius: 8px;
+} */
+
 .containerMain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    bottom: 200px;
+    left: 9px;
     display: flex;
-    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 12rem;
+    width: 70%;
     height: 400px;
-    top: -28rem;
-    position: relative;
+}
+
+.containerMain img {
+    /* display: block; */
+    margin-top: 300px;
+    width: 546px;
+    height: 333px;
+    object-fit: cover;
+    margin-left: 70px;
 }

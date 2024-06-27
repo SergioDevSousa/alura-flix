@@ -1,6 +1,6 @@
-function LogoImagem ({logo, alt}){
+function LogoImagem (){
     return(
-        <img src={logo} alt={alt}/>
+        <img src='/imagens/logomain.png' alt='logoMain'/>
     )
 }
 

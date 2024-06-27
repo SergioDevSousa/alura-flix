@@ -1,7 +1,8 @@
 .textoMain{
-    padding: 20px;
+    margin-top: 400px;
     width: 55%;
     height: 400px;
+    padding: 40px;
 }
 .textoMain h1{
     background-color: #6BD1FF;
@@ -16,6 +17,7 @@
     justify-content: center;
 }
 .textoMain h2{
+    margin-top: 30px;
     width: 100vh;
     height: auto;
     font-size: 2rem;
@@ -23,6 +25,7 @@
 
 }
 .textoMain p{
+    margin-top: 30px;
     width: 100vh;
     height: auto;
     font-size: 1.2rem;

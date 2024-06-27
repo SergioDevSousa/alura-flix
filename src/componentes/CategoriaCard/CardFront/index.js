@@ -7,7 +7,7 @@ function CardFront({ imagem, categoria, link }) {
                 <a href={link}><img src={imagem} alt={categoria} /></a>
                 
                 <figcaption className={styles.caption}>
-                    <div className={styles.titulo}>{categoria}</div>
+                    <div className={styles.titulo}></div>
                     <div className={styles.icons}>
                         <div className={styles.delete}>
                             <img src="/imagens/VectorDel.png" alt="Deletar" />

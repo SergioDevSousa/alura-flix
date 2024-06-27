@@ -1,36 +1,34 @@
 import Banner from '../../componentes/Banner';
 import Cabecalho from '../../componentes/Cabecalho';
+import CardMain from '../../componentes/CardMain';
 import Categorias from '../../componentes/CategoriaCard';
 import Rodape from '../../componentes/Rodape';
 
 function Home() {
+
     const categorias = [
         {
             nome: 'Front End',
-            cor: '#6BD1FF',
+            cor: '#6BD1FF'
         },
         {
             nome: 'Back End',
-            cor: '#00C86F',
+            cor: '#00C86F'
         },
         {
-            nome: 'Inovação',
-            cor: '#FFBA05',
-        },
-        {
-            nome: 'Gestão',
-            cor: '#051EFF',
+            nome: 'Mobile',
+            cor: '#FFBA05'
         },
     ];
-
+    
     return (
         <>
             <Cabecalho />
             <Banner categorias={categorias} />
-            {categorias.map((categoria) => (
-                <Categorias key={categoria.nome} nome={categoria.nome} cor={categoria.cor} />
+            <CardMain />
+            {categorias.map(({nome, cor}) => (
+                <Categorias key={nome} nome={nome} cor={cor} />
             ))}
-            
             <Rodape />
         </>
     );
