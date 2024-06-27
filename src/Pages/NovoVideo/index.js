@@ -1,8 +1,15 @@
-import styles from './NovoVideo.module.css';
+import Cabecalho from '../../componentes/Cabecalho/index.js';
+import CriarVideo from '../../componentes/CriarVideo/index.js';
 
-function NovoVideo(){
-    return{
+function NovoVideo() {
+    return (
+        <>
+            <Cabecalho />
+            <CriarVideo />
+        </>
 
-    };
+
+    )
 }
+
 export default NovoVideo;
