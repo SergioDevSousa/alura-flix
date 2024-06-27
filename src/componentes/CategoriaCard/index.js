@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './Card.module.css';
 import CardFront from './CardFront';
 
-function Categorias({ nome, cor }) {
+function CategoriaCard({ nome, cor }) {
     const [videos, setVideos] = useState([]);
 
     useEffect(() => {
@@ -39,4 +39,4 @@ function Categorias({ nome, cor }) {
     );
 }
 
-export default Categorias;
+export default CategoriaCard;
