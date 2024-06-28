@@ -4,6 +4,7 @@ import CardMain from '../../componentes/CardMain';
 import Categorias from '../../componentes/CategoriaCard';
 import Rodape from '../../componentes/Rodape';
 
+
 function Home() {
 
     const categorias = [

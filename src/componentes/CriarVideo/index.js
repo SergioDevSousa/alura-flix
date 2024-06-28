@@ -4,7 +4,10 @@ function CriarVideo(){
     return(
         
         <div>
-            <EditarCard titulo="NOVO VIDEO" subtitulo="Complete o formulário para criar um novo card de vídeo."/>
+            <EditarCard>
+                {/* <h1>Novo Vídeo</h1>
+                <p>Complete o formulário para criar um novo card de video</p> */}
+            </EditarCard>
         </div>
     )
 }

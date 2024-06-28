@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import styles from './Card.module.css';
 import CardFront from './CardFront';
 
+
 function CategoriaCard({ nome, cor }) {
     const [videos, setVideos] = useState([]);
+    
 
     useEffect(() => {
         const fetchData = async () => {
