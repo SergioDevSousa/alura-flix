@@ -1,6 +1,6 @@
 import Banner from '../../componentes/Banner';
 import Cabecalho from '../../componentes/Cabecalho';
-import CardMain from '../../componentes/CardMain';
+import CardBanner from '../../componentes/CardBanner';
 import Categorias from '../../componentes/CategoriaCard';
 import Rodape from '../../componentes/Rodape';
 
@@ -26,7 +26,7 @@ function Home() {
         <>
             <Cabecalho />
             <Banner categorias={categorias} />
-            <CardMain />
+            <CardBanner />
             {categorias.map(({nome, cor}) => (
                 <Categorias key={nome} nome={nome} cor={cor} />
             ))}

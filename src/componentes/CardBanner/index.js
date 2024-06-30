@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './CardMain.module.css';
+import styles from './CardBanner.module.css';
 import ImagemMain from '../ImagemMain';
 import TextoMain from '../TextoMain';
 
 
-function CardMain() {
+function CardBanner() {
     return (
         <section className={styles.containerMain}>
             <TextoMain />
@@ -13,5 +13,5 @@ function CardMain() {
     );
 }
 
-export default CardMain;
+export default CardBanner;
 

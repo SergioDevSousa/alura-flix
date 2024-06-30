@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import styles from './Card.module.css';
-import CardFront from './CardFront';
+import styles from './CategoriaCard.module.css';
+import Card from './Card';
 
 
 function CategoriaCard({ nome, cor }) {
@@ -29,7 +29,7 @@ function CategoriaCard({ nome, cor }) {
             <h3 style={{ backgroundColor: cor }}>{nome}</h3>
             <div className={styles.cardContainer}>
                 {videos.map((video) => (
-                    <CardFront
+                    <Card
                         key={video.id}
                         imagem={video.imagem}
                         categoria={video.categoria}

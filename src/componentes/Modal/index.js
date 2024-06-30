@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Modal.module.css';
+import Card from '../CategoriaCard/Card';
 
 function Modal({ onClose }) {
     return (
@@ -8,7 +9,10 @@ function Modal({ onClose }) {
             <div className={styles.modalContent}>
                 <h2>Editar Informações</h2>
                 <p>Aqui você pode editar as informações.</p>
-                <button onClick={onClose}>Fechar</button>
+                <Card>
+                    <button onClick={onClose}>Guardar</button>
+                </Card>
+
             </div>
         </div>
     );

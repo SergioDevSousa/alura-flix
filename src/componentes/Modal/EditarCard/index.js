@@ -1,12 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
-import Rodape from '../../Rodape';
 
-
+const CardTexto = styled.div`
+    text-align: center;
+    color: white;
+    padding: 30px;
+`;
 const CardContainer = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 40px 0px 40px 0px;
 `;
 
 const CardLabel = styled.label`
@@ -65,32 +69,35 @@ const CardButtonSection = styled.div`
 const EditarCard = () => {
     return (
         <>
-        <CardContainer>
-            <form action="/NovoVideo" method="post">
-                <div>
-                    <CardLabel htmlFor="categoria">Categoria</CardLabel>
-                    <CardSelect id="categoria" name="categoria" required>
-                        <option value="">Selecione uma categoria</option>
-                        <option value="front End">Front End</option>
-                        <option value="Back End">Back End</option>
-                        <option value="Mobile">Mobile</option>
-                    </CardSelect>
-                </div>
-                <div>
-                    <CardLabel htmlFor="imagem">Imagem</CardLabel>
-                    <CardInput type="url" id="imagem" name="imagem" />
-                </div>
-                <div>
-                    <CardLabel htmlFor="link">Vídeo</CardLabel>
-                    <CardInput type="url" id="video" name="video" placeholder="https://www.youtube.com/watch?v=..." />
-                </div>
-                <CardButtonSection>
-                    <CardButton type="submit">Guardar</CardButton>
-                    <CardButton type="reset">Limpar</CardButton>
-                </CardButtonSection>
-            </form>
-        </CardContainer>
-        <Rodape />
+            <CardTexto>
+                <h1>NOVO VIDEO</h1>
+                <p>Complete o formulário para criar um novo CARD de vídeo</p>
+            </CardTexto>
+            <CardContainer>
+                <form action="/NovoVideo" method="post">
+                    <div>
+                        <CardLabel htmlFor="categoria">Categoria</CardLabel>
+                        <CardSelect id="categoria" name="categoria" required>
+                            <option value="">Selecione uma categoria</option>
+                            <option value="front End">Front End</option>
+                            <option value="Back End">Back End</option>
+                            <option value="Mobile">Mobile</option>
+                        </CardSelect>
+                    </div>
+                    <div>
+                        <CardLabel htmlFor="imagem">Imagem</CardLabel>
+                        <CardInput type="url" id="imagem" name="imagem" />
+                    </div>
+                    <div>
+                        <CardLabel htmlFor="link">Vídeo</CardLabel>
+                        <CardInput type="url" id="video" name="video" placeholder="https://www.youtube.com/watch?v=..." />
+                    </div>
+                    <CardButtonSection>
+                        <CardButton type="submit">Guardar</CardButton>
+                        <CardButton type="reset">Limpar</CardButton>
+                    </CardButtonSection>
+                </form>
+            </CardContainer>
         </>
 
     );

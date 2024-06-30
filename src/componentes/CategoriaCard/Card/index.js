@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import styles from './CardFront.module.css';
+import styles from './Card.module.css';
 import Modal from '../../Modal';
 
-function CardFront({ imagem, categoria, link }) {
+function Card({ imagem, categoria, link }) {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const openModal = () => {
@@ -40,4 +40,4 @@ function CardFront({ imagem, categoria, link }) {
     );
 }
 
-export default CardFront;
+export default Card;

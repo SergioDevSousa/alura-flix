@@ -1,16 +1,3 @@
-/* .containerMain {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px; 
-}
-
-img{
-    width: 646px;
-    height: 333px;
-    border: 2px solid #ccc; 
-    border-radius: 8px;
-} */
-
 .containerMain {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

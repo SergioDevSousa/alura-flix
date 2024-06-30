@@ -1,12 +1,13 @@
 import Cabecalho from '../../componentes/Cabecalho/index.js';
-import CriarVideo from '../../componentes/CriarVideo/index.js';
+import EditarCard from '../../componentes/Modal/EditarCard/index.js';
+import Rodape from '../../componentes/Rodape/index.js';
 
 function NovoVideo() {
     return (
         <>
             <Cabecalho />
-            <CriarVideo />
-
+            <EditarCard />
+            <Rodape />
         </>
 
 
